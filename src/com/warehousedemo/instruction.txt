@@ -1,0 +1,9 @@
+// Goal : Create a simple representation of a warehouse management program
+// The inventory is to store lots of various products. i.e, food, alchohol, furniture and digital gadgets.
+// build an app that creates several different objects.
+// the app should be able to:
+// 1- store any product
+// ** if not familiar with List, try to simply print out => "added to stock"
+// 2- retrieve the name of each product
+// 3- add/remove the quantity of each product
+// 4- show the remaining quantity of each product
