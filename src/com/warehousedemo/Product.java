@@ -3,9 +3,9 @@ package com.warehousedemo;
 public abstract class Product {
     // because we're not using collections, we store each product quantity or
     // remaining value inside itself
-    private int quantity;
-    private double price;
-    private String name;
+    protected int quantity;
+    protected double price;
+    protected String name;
 
     public Product(int quantity, double price, String name) {
         this.quantity = quantity;

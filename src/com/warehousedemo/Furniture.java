@@ -2,9 +2,6 @@ package com.warehousedemo;
 
 
 public class Furniture extends Product {
-    private String name;
-    private int quantity;
-    private double price;
 
     public Furniture(int quantity, double price, String name) {
         super(quantity, price, name);
