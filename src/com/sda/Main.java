@@ -19,6 +19,25 @@ public class Main {
 
         // hire sponsor
         aCompany.hire(sponsor);
+
+        // ****************************************
+        // compareTo method demo
+        ((Employee) trainer).setWorkingHours(20);
+
+        Employee secretary = new Employee("Clara");
+
+        secretary.setWorkingHours(10);
+
+        giveBonus((Employee) trainer, secretary);
+    }
+
+
+    public static void giveBonus(Employee p1, Employee p2) {
+        if (p1.getWorkingHours() - p2.getWorkingHours() > 0) {
+            System.out.println("p1 is the winner");
+        }
+
+
     }
 }
 
